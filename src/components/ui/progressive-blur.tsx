@@ -1,6 +1,7 @@
 'use client';
 import { cn } from '@/lib/utils';
-import { HTMLMotionProps, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
+import type { HTMLMotionProps } from 'framer-motion';
 
 export const GRADIENT_ANGLES = {
   top: 0,

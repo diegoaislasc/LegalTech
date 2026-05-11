@@ -1,13 +1,13 @@
 {
   "sessions": {
     "62438b56-f3af-4c83-b157-4b4797559497": {
-      "user_message_count": 1,
-      "agent_message_count": 22,
+      "user_message_count": 10,
+      "agent_message_count": 123,
       "start_timestamp": "2026-05-11T15:40:39.432Z",
-      "end_timestamp": "2026-05-11T15:41:34.204Z",
-      "markdown_size_bytes": 15831,
+      "end_timestamp": "2026-05-11T17:40:52.687Z",
+      "markdown_size_bytes": 187601,
       "provider": "gemini-cli",
-      "last_updated": "2026-05-11T15:41:34Z"
+      "last_updated": "2026-05-11T17:40:52Z"
     }
   }
 }

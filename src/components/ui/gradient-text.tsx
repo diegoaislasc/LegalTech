@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useCallback, useEffect, useRef, ReactNode } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
+import type { ReactNode } from 'react';
 import { motion, useMotionValue, useAnimationFrame, useTransform } from 'framer-motion';
 
 interface GradientTextProps {

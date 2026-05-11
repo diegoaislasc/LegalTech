@@ -1,6 +1,7 @@
 'use client';
 
-import { ElementType, useEffect, useRef, useState, createElement, useMemo, useCallback } from 'react';
+import { useEffect, useRef, useState, createElement, useMemo, useCallback } from 'react';
+import type { ElementType } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface TextTypeProps {
@@ -88,7 +89,7 @@ const TextType = ({
 
     let timeout: ReturnType<typeof setTimeout>;
 
-    const currentText = textArray[currentTextIndex];
+    const currentText = textArray[currentTextIndex] || '';
     const processedText = reverseMode ? currentText.split('').reverse().join('') : currentText;
 
     const executeTypingAnimation = () => {
@@ -100,7 +101,7 @@ const TextType = ({
           }
 
           if (onSentenceComplete) {
-            onSentenceComplete(textArray[currentTextIndex], currentTextIndex);
+            onSentenceComplete(textArray[currentTextIndex] || '', currentTextIndex);
           }
 
           setCurrentTextIndex(prev => (prev + 1) % textArray.length);
@@ -153,8 +154,9 @@ const TextType = ({
     onSentenceComplete
   ]);
 
+  const currentTextLength = textArray[currentTextIndex]?.length || 0;
   const shouldHideCursor =
-    hideCursorWhileTyping && (currentCharIndex < textArray[currentTextIndex].length || isDeleting);
+    hideCursorWhileTyping && (currentCharIndex < currentTextLength || isDeleting);
 
   return createElement(
     Component,

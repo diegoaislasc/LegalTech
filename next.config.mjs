@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    turbo: {
-      root: '.',
-    },
-  },
+  // Configuración estándar de Next.js
 };
 
 export default nextConfig;

@@ -6,19 +6,22 @@ const legalModules = [
     title: 'Consulta de Expedientes',
     description: 'Automatización y seguimiento inteligente de procesos judiciales en tiempo real. Obtén actualizaciones instantáneas sin intervención manual.',
     label: 'Módulo A',
-    image: '/Imagen-ConsultaDeExpedientes.png'
+    image: '/Imagen-ConsultaDeExpedientes.png',
+    color: '#A88B5A'
   },
   {
     title: 'Gestión de Contratos y Firmas',
     description: 'Centralización y firma digital segura para todo tipo de documentos legales. Agiliza el cierre de acuerdos con validez jurídica.',
     label: 'Módulo B',
-    image: '/Imagen-GestionContratosYFirmas.png'
+    image: '/Imagen-GestionContratosYFirmas.png',
+    color: '#A88B5A'
   },
   {
     title: 'Consultoría de IA para flujos legales',
     description: 'Optimización de procesos internos mediante inteligencia artificial personalizada. Rediseñamos tu forma de trabajar.',
     label: 'Módulo C',
-    image: '/Imagen-ConsultoriaIA.png'
+    image: '/Imagen-ConsultoriaIA.png',
+    color: '#A88B5A'
   }
 ];
 

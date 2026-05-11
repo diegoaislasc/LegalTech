@@ -35,6 +35,7 @@ export function HeroSection() {
                                         ease="power4.out"
                                         tag="h1"
                                         textAlign="center"
+                                        onLetterAnimationComplete={() => {}}
                                     />
                                 </motion.div>
                                 <motion.p                                    initial={{ opacity: 0, y: 20 }}
