@@ -1,0 +1,12 @@
+{
+  "expedientes": [
+    {
+      "id": "1",
+      "nombre": "Caso Prueba Queretaro",
+      "numero": "33/2025",
+      "circuito": "Vigésimo Segundo Circuito Querétaro de Arteaga",
+      "organo": "Tribunal Colegiado en Materias Administrativa y de Trabajo del Vigésimo Segundo Circuito, con residencia en Querétaro, Querétaro",
+      "tipoExpediente": "Amparo Directo"
+    }
+  ]
+}
