@@ -27,7 +27,7 @@ export function HeroSection() {
                                     className="flex justify-center"
                                 >
                                     <SplitText
-                                        text="Automatiza tu Operación Legal con IA"
+                                        text="Operación Legal Inteligente"
                                         className="font-heading mt-8 max-w-4xl text-balance text-5xl font-bold md:text-6xl lg:mt-16 xl:text-7xl text-primary"
                                         delay={40}
                                         duration={0.8}
