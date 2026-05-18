@@ -27,8 +27,8 @@ export function HeroSection() {
                                     className="flex justify-center"
                                 >
                                     <SplitText
-                                        text="Inteligencia Artificial para la Excelencia Legal"
-                                        className="font-heading mt-8 max-w-3xl text-balance text-5xl font-bold md:text-6xl lg:mt-16 xl:text-7xl text-primary"
+                                        text="Automatiza tu Operación Legal con Inteligencia Artificial"
+                                        className="font-heading mt-8 max-w-4xl text-balance text-5xl font-bold md:text-6xl lg:mt-16 xl:text-7xl text-primary"
                                         delay={40}
                                         duration={0.8}
                                         splitType="chars"
@@ -38,11 +38,14 @@ export function HeroSection() {
                                         onLetterAnimationComplete={() => {}}
                                     />
                                 </motion.div>
-                                <motion.p                                    initial={{ opacity: 0, y: 20 }}
+                                <motion.p
+                                    initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 0.2 }}
                                     className="mt-8 mx-auto max-w-2xl text-balance text-xl text-muted-foreground text-center">
-                                    Transformamos firmas legales con soluciones AI-native. Precisión, seguridad y eficiencia sin precedentes en cada proceso jurídico.
+                                    Implementamos soluciones AI-native que eliminan el trabajo manual. <span className="text-primary font-semibold">Desde $1,500 USD / mes.</span>
+                                    <br />
+                                    <span className="text-sm mt-4 inline-block opacity-80 italic">Con la confianza de 10+ despachos líderes y 50k+ expedientes monitoreados.</span>
                                 </motion.p>
 
                                 <motion.div 

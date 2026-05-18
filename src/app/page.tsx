@@ -4,22 +4,22 @@ import MagicBento from "@/components/MagicBento";
 const legalModules = [
   {
     title: 'Consulta de Expedientes',
-    description: 'Automatización y seguimiento inteligente de procesos judiciales en tiempo real. Obtén actualizaciones instantáneas sin intervención manual.',
-    label: 'Módulo A',
+    description: '¿Es para ti? Ideal para despachos que manejan volúmenes masivos. Automatiza el seguimiento judicial en tiempo real y recibe alertas de "quick wins" procesales.',
+    label: 'Para Litigantes',
     image: '/Imagen-ConsultaDeExpedientes.png',
     color: '#A88B5A'
   },
   {
-    title: 'Gestión de Contratos y Firmas',
-    description: 'Centralización y firma digital segura para todo tipo de documentos legales. Agiliza el cierre de acuerdos con validez jurídica.',
-    label: 'Módulo B',
+    title: 'Gestión de Contratos',
+    description: '¿Tu equipo pierde horas en firmas? Segmentado para Departamentos Legales Corporativos. Centralización inteligente con validez jurídica inmediata.',
+    label: 'Para C-Suite',
     image: '/Imagen-GestionContratosYFirmas.png',
     color: '#A88B5A'
   },
   {
-    title: 'Consultoría de IA para flujos legales',
-    description: 'Optimización de procesos internos mediante inteligencia artificial personalizada. Rediseñamos tu forma de trabajar.',
-    label: 'Módulo C',
+    title: 'Consultoría IA Especializada',
+    description: '¿Tu flujo actual es lento? Rediseñamos tu forma de trabajar con Playbooks de IA personalizados. Teoría mínima, implementación máxima.',
+    label: 'Estratégico',
     image: '/Imagen-ConsultoriaIA.png',
     color: '#A88B5A'
   }
@@ -40,7 +40,7 @@ export default function Home() {
               Módulos de Inteligencia Legal
             </h2>
             <p className="text-muted-foreground text-lg md:text-xl max-w-3xl leading-relaxed">
-              Nuestras soluciones AI-native están diseñadas para cubrir cada aspecto crítico de la práctica jurídica moderna, combinando precisión técnica con agilidad digital.
+              Soluciones diseñadas para resolver dolores específicos de la práctica jurídica moderna, desde la automatización técnica hasta la optimización estratégica.
             </p>
           </div>
           
@@ -51,6 +51,38 @@ export default function Home() {
               glowColor="168, 139, 90"
               particleCount={15}
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Nueva Sección de Metodología */}
+      <section className="py-32 px-6 bg-primary/[0.02]">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary mb-20 text-center">
+            Metodología NovaLex
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="space-y-6">
+              <span className="text-7xl font-bold text-primary/10 block italic">01</span>
+              <h3 className="text-2xl font-bold text-primary italic">Analiza</h3>
+              <p className="text-muted-foreground text-lg italic">
+                Diagnosticamos tus cuellos de botella operativos y diseñamos un Playbook de automatización a medida.
+              </p>
+            </div>
+            <div className="space-y-6">
+              <span className="text-7xl font-bold text-primary/10 block italic">02</span>
+              <h3 className="text-2xl font-bold text-primary italic">Implementa</h3>
+              <p className="text-muted-foreground text-lg italic">
+                Desplegamos agentes de IA y RPA en tu infraestructura actual. Sin fricción, con resultados inmediatos.
+              </p>
+            </div>
+            <div className="space-y-6">
+              <span className="text-7xl font-bold text-primary/10 block italic">03</span>
+              <h3 className="text-2xl font-bold text-primary italic">Escala</h3>
+              <p className="text-muted-foreground text-lg italic">
+                Optimizamos el flujo continuamente para maximizar tu ROI y liberar a tu equipo de tareas repetitivas.
+              </p>
+            </div>
           </div>
         </div>
       </section>
