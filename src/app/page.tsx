@@ -30,32 +30,7 @@ export default function Home() {
     <main className="bg-background min-h-screen">
       <HeroSection />
       
-      <section id="modules" className="py-32 px-6 relative overflow-hidden">
-        {/* Decoración de fondo sutil */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,rgba(168,139,90,0.03),transparent_70%)] pointer-events-none" />
-        
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="mb-20 text-center lg:text-left">
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary mb-6">
-              Módulos de Inteligencia Legal
-            </h2>
-            <p className="text-muted-foreground text-lg md:text-xl max-w-3xl leading-relaxed">
-              Soluciones diseñadas para resolver dolores específicos de la práctica jurídica moderna, desde la automatización técnica hasta la optimización estratégica.
-            </p>
-          </div>
-          
-          <div className="flex justify-center">
-            <MagicBento 
-              cards={legalModules} 
-              enableTilt={true}
-              glowColor="168, 139, 90"
-              particleCount={15}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Nueva Sección de Metodología */}
+      {/* Sección de Metodología - Ahora después del Hero */}
       <section className="py-32 px-6 bg-primary/[0.02]">
         <div className="max-w-7xl mx-auto">
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary mb-20 text-center">
@@ -83,6 +58,31 @@ export default function Home() {
                 Optimizamos el flujo continuamente para maximizar tu ROI y liberar a tu equipo de tareas repetitivas.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="modules" className="py-32 px-6 relative overflow-hidden">
+        {/* Decoración de fondo sutil */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,rgba(168,139,90,0.03),transparent_70%)] pointer-events-none" />
+        
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="mb-20 text-center lg:text-left">
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary mb-6">
+              Módulos de Inteligencia Legal
+            </h2>
+            <p className="text-muted-foreground text-lg md:text-xl max-w-3xl leading-relaxed">
+              Soluciones diseñadas para resolver dolores específicos de la práctica jurídica moderna, desde la automatización técnica hasta la optimización estratégica.
+            </p>
+          </div>
+          
+          <div className="flex justify-center">
+            <MagicBento 
+              cards={legalModules} 
+              enableTilt={true}
+              glowColor="168, 139, 90"
+              particleCount={15}
+            />
           </div>
         </div>
       </section>
